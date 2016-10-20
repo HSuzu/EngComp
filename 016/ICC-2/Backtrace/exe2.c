@@ -23,14 +23,6 @@ void destroyMatrix(int **matrix, int line) {
   free(matrix);
 }
 
-void clearVector(int *vector, int len) {
-  while(--len >= 0) vector[len] = 0;
-}
-
-void clearMatrix(int **matrix, int line, int column) {
-  while(--line >= 0) clearVector(matrix[line], column);
-}
-
 int **createMatrix(int line, int column) {
   int **matrix = (int **)malloc(sizeof(int *)*line);
   if(!matrix) {
@@ -68,7 +60,23 @@ void addQueen(int **result, int size, int x, int y, int n) {
 
   idx = x+1;
   while(idx < size) result[y][idx++] += n;
+
   //------------------- diagonal
+  idx = x;
+  int idy = y;
+  while(--idx >= 0 && --idy >= 0) result[idy][idx] += n;
+
+  idx = x;
+  idy = y;
+  while(++idx < size && ++idy < size) result[idy][idx] += n;
+
+  idx = x;
+  idy = y;
+  while(--idx >= 0 && ++idy < size) result[idy][idx] += n;
+
+  idx = x;
+  idy = y;
+  while(++idx < size && --idy >= 0) result[idy][idx] += n;
 }
 
 void removeQueen(int **result, int size, int x, int y, int n) {
@@ -90,24 +98,54 @@ void removeQueen(int **result, int size, int x, int y, int n) {
 
   idx = x+1;
   while(idx < size) result[y][idx++] -= n;
+
   //-----------------------diagonal
+  idx = x;
+  int idy = y;
+  while(--idx >= 0 && --idy >= 0) result[idy][idx] -= n;
+
+  idx = x;
+  idy = y;
+  while(++idx < size && ++idy < size) result[idy][idx] -= n;
+
+  idx = x;
+  idy = y;
+  while(--idx >= 0 && ++idy < size) result[idy][idx] -= n;
+
+  idx = x;
+  idy = y;
+  while(++idx < size && --idy >= 0) result[idy][idx] -= n;
 }
 
 int queens(int **result, int size, int n) {
+  #ifdef DEBUG
+  fprintf(stderr, "n = %d\n", n);
+  #endif
+
   if(n <= 0 || n > size) return 1;
 
   int y = 0;
   int r = 0;
   do {
-    if(result[y][n] != 0) return 0;
+    if(result[y][n-1] == 0) {
+      addQueen(result, size, n-1, y, n);
 
-    addQueen(result, size, n, y, n);
-    r = queens(result, size, n);
-    if(!r) {
-      removeQueen(result, size, n, y, n);
-      y++;
+      #ifdef DEBUG
+      fprintf(stderr, "n = %d, y = %d\n", n, y);
+      printMatrix(result, size, size, stdout);
+      #endif
+
+      r = queens(result, size, n-1);
+      removeQueen(result, size, n-1, y, n); // para tratar a matriz
     }
-  } while(!r);
+    y++;
+  } while(!r && y < size);
+
+  if(r) {
+    result[--y][n-1] = 1;
+    return 1;
+  }
+  return 0;
 }
 
 int main(int argc, char *argv[]) {
@@ -124,6 +162,9 @@ int main(int argc, char *argv[]) {
     return -1;
   }
 
-  destroyMatrix(result);
+  fprintf(stdout, "Result: %d\n", queens(result, size, size));
+  printMatrix(result, size, size, stdout);
+
+  destroyMatrix(result, size);
   return 0;
 }
