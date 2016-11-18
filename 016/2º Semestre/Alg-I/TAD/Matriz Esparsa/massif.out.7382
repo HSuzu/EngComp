@@ -1,0 +1,575 @@
+desc: --time-unit=B
+cmd: ./main
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=154840
+mem_heap_B=123872
+mem_heap_extra_B=30968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=400600
+mem_heap_B=320480
+mem_heap_extra_B=80120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=608600
+mem_heap_B=486880
+mem_heap_extra_B=121720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=828760
+mem_heap_B=663008
+mem_heap_extra_B=165752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1048920
+mem_heap_B=839136
+mem_heap_extra_B=209784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=1269080
+mem_heap_B=1015264
+mem_heap_extra_B=253816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=1447960
+mem_heap_B=1158368
+mem_heap_extra_B=289592
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1158368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 772224 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n1: 386112 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 386112 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n1: 386112 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 386112 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 386112 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n1: 386112 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 386112 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=1668120
+mem_heap_B=1334496
+mem_heap_extra_B=333624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1888280
+mem_heap_B=1510624
+mem_heap_extra_B=377656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2108440
+mem_heap_B=1686752
+mem_heap_extra_B=421688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2328600
+mem_heap_B=1862880
+mem_heap_extra_B=465720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2548760
+mem_heap_B=2039008
+mem_heap_extra_B=509752
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2039008 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1359296 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n1: 679648 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 679648 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n1: 679648 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 679648 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 679680 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n1: 679680 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 679680 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=2768920
+mem_heap_B=2215136
+mem_heap_extra_B=553784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2989080
+mem_heap_B=2391264
+mem_heap_extra_B=597816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=3209240
+mem_heap_B=2567392
+mem_heap_extra_B=641848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=3429400
+mem_heap_B=2743520
+mem_heap_extra_B=685880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=3649560
+mem_heap_B=2919648
+mem_heap_extra_B=729912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=3869720
+mem_heap_B=3095776
+mem_heap_extra_B=773944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=4089880
+mem_heap_B=3271904
+mem_heap_extra_B=817976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=4310040
+mem_heap_B=3448032
+mem_heap_extra_B=862008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=4530200
+mem_heap_B=3624160
+mem_heap_extra_B=906040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=4750360
+mem_heap_B=3800288
+mem_heap_extra_B=950072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=4970520
+mem_heap_B=3976416
+mem_heap_extra_B=994104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=5190680
+mem_heap_B=4152544
+mem_heap_extra_B=1038136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=5410840
+mem_heap_B=4328672
+mem_heap_extra_B=1082168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=5771800
+mem_heap_B=4617440
+mem_heap_extra_B=1154360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=6000120
+mem_heap_B=4800096
+mem_heap_extra_B=1200024
+mem_stacks_B=0
+heap_tree=peak
+n3: 4800096 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 3200064 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1600032 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1600000 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+  n2: 1600032 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1600000 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+ n1: 1600000 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1600000 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1599968 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 in 1 place, below massif's threshold (1.00%)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=6195960
+mem_heap_B=4643424
+mem_heap_extra_B=1160856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=6391800
+mem_heap_B=4486752
+mem_heap_extra_B=1121688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=6587640
+mem_heap_B=4330080
+mem_heap_extra_B=1082520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=6783480
+mem_heap_B=4173408
+mem_heap_extra_B=1043352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=6979320
+mem_heap_B=4016736
+mem_heap_extra_B=1004184
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4016736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2808352 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1600000 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1600000 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 1208352 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1208352 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1208352 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1208352 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1208352 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=7175160
+mem_heap_B=3860064
+mem_heap_extra_B=965016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=7371000
+mem_heap_B=3703392
+mem_heap_extra_B=925848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=7566840
+mem_heap_B=3546720
+mem_heap_extra_B=886680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=7762680
+mem_heap_B=3390048
+mem_heap_extra_B=847512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=7958520
+mem_heap_B=3233376
+mem_heap_extra_B=808344
+mem_stacks_B=0
+heap_tree=detailed
+n3: 3233376 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2416672 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1600000 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1600000 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 816672 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 816672 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 816672 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 816672 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 816672 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=8154360
+mem_heap_B=3076704
+mem_heap_extra_B=769176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=8350200
+mem_heap_B=2920032
+mem_heap_extra_B=730008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=8546040
+mem_heap_B=2763360
+mem_heap_extra_B=690840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=8741880
+mem_heap_B=2606688
+mem_heap_extra_B=651672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=8937720
+mem_heap_B=2450016
+mem_heap_extra_B=612504
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2450016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2024992 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1600000 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1600000 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 424992 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 424992 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 424992 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 424992 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 424992 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=9133560
+mem_heap_B=2293344
+mem_heap_extra_B=573336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=9329400
+mem_heap_B=2136672
+mem_heap_extra_B=534168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=9525240
+mem_heap_B=1980000
+mem_heap_extra_B=495000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=9721080
+mem_heap_B=1823328
+mem_heap_extra_B=455832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=9916920
+mem_heap_B=1666656
+mem_heap_extra_B=416664
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1666656 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1633312 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 1600000 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 1600000 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 33312 0x400B3D: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 33312 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 33312 0x40094A: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 33312 0x400AB1: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 33312 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=10112760
+mem_heap_B=1509984
+mem_heap_extra_B=377496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=10406520
+mem_heap_B=1274976
+mem_heap_extra_B=318744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=10561360
+mem_heap_B=1151104
+mem_heap_extra_B=287776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=10716200
+mem_heap_B=1027232
+mem_heap_extra_B=256808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=10871040
+mem_heap_B=903360
+mem_heap_extra_B=225840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=11025880
+mem_heap_B=779488
+mem_heap_extra_B=194872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=11180720
+mem_heap_B=655616
+mem_heap_extra_B=163904
+mem_stacks_B=0
+heap_tree=detailed
+n2: 655616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 655584 0x4009CF: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 655584 0x400BB9: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 655584 0x400700: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=11335560
+mem_heap_B=531744
+mem_heap_extra_B=132936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=11490400
+mem_heap_B=407872
+mem_heap_extra_B=101968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=11645240
+mem_heap_B=284000
+mem_heap_extra_B=71000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=11800080
+mem_heap_B=160128
+mem_heap_extra_B=40032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=11954920
+mem_heap_B=36256
+mem_heap_extra_B=9064
+mem_stacks_B=0
+heap_tree=empty

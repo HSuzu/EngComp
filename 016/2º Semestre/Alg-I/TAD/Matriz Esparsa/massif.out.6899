@@ -1,0 +1,618 @@
+desc: --time-unit=B
+cmd: ./main
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=32952
+mem_heap_B=26560
+mem_heap_extra_B=6392
+mem_stacks_B=0
+heap_tree=detailed
+n5: 26560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 8512 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 8512 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 8512 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 8512 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 8480 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 8480 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 1024 0x4E9E1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 1024 0x4EAC592: _IO_doallocbuf (genops.c:398)
+   n1: 1024 0x4EAB8F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 1024 0x4EAA28B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 1024 0x4E7E23F: vfprintf (vfprintf.c:1320)
+      n1: 1024 0x4F46DFD: __printf_chk (printf_chk.c:35)
+       n0: 1024 0x4006C4: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 32 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=73912
+mem_heap_B=59328
+mem_heap_extra_B=14584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=114872
+mem_heap_B=92096
+mem_heap_extra_B=22776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=143832
+mem_heap_B=115264
+mem_heap_extra_B=28568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=183512
+mem_heap_B=147008
+mem_heap_extra_B=36504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=223192
+mem_heap_B=178752
+mem_heap_extra_B=44440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=268632
+mem_heap_B=215104
+mem_heap_extra_B=53528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=299992
+mem_heap_B=240192
+mem_heap_extra_B=59800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=331352
+mem_heap_B=265280
+mem_heap_extra_B=66072
+mem_stacks_B=0
+heap_tree=detailed
+n4: 265280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 88096 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 88096 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 88064 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 88064 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 88064 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 88064 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=362712
+mem_heap_B=290368
+mem_heap_extra_B=72344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=394072
+mem_heap_B=315456
+mem_heap_extra_B=78616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=425432
+mem_heap_B=340544
+mem_heap_extra_B=84888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=456792
+mem_heap_B=365632
+mem_heap_extra_B=91160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=488152
+mem_heap_B=390720
+mem_heap_extra_B=97432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=519512
+mem_heap_B=415808
+mem_heap_extra_B=103704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=550872
+mem_heap_B=440896
+mem_heap_extra_B=109976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=582232
+mem_heap_B=465984
+mem_heap_extra_B=116248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=613592
+mem_heap_B=491072
+mem_heap_extra_B=122520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=644952
+mem_heap_B=516160
+mem_heap_extra_B=128792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=676312
+mem_heap_B=541248
+mem_heap_extra_B=135064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=707672
+mem_heap_B=566336
+mem_heap_extra_B=141336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=739032
+mem_heap_B=591424
+mem_heap_extra_B=147608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=770392
+mem_heap_B=616512
+mem_heap_extra_B=153880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=801752
+mem_heap_B=641600
+mem_heap_extra_B=160152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=840952
+mem_heap_B=672960
+mem_heap_extra_B=167992
+mem_stacks_B=0
+heap_tree=detailed
+n4: 672960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 223968 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 223968 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 223968 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 223968 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 223968 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 223968 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=895992
+mem_heap_B=716992
+mem_heap_extra_B=179000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=923512
+mem_heap_B=739008
+mem_heap_extra_B=184504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=951032
+mem_heap_B=761024
+mem_heap_extra_B=190008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=978552
+mem_heap_B=783040
+mem_heap_extra_B=195512
+mem_stacks_B=0
+heap_tree=detailed
+n4: 783040 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 260672 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 260672 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 260672 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 260672 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 260640 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 260640 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=1006072
+mem_heap_B=805056
+mem_heap_extra_B=201016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1033592
+mem_heap_B=827072
+mem_heap_extra_B=206520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1061112
+mem_heap_B=849088
+mem_heap_extra_B=212024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1088632
+mem_heap_B=871104
+mem_heap_extra_B=217528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1116152
+mem_heap_B=893120
+mem_heap_extra_B=223032
+mem_stacks_B=0
+heap_tree=detailed
+n4: 893120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 297376 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 297376 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 297344 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 297344 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 297344 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 297344 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=1143672
+mem_heap_B=915136
+mem_heap_extra_B=228536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1171192
+mem_heap_B=937152
+mem_heap_extra_B=234040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1198712
+mem_heap_B=959168
+mem_heap_extra_B=239544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1226232
+mem_heap_B=981184
+mem_heap_extra_B=245048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1253752
+mem_heap_B=1003200
+mem_heap_extra_B=250552
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1003200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 334048 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 334048 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 334048 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 334048 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 334048 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 334048 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=1281272
+mem_heap_B=1025216
+mem_heap_extra_B=256056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1308792
+mem_heap_B=1047232
+mem_heap_extra_B=261560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1336312
+mem_heap_B=1069248
+mem_heap_extra_B=267064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1363832
+mem_heap_B=1091264
+mem_heap_extra_B=272568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1391352
+mem_heap_B=1113280
+mem_heap_extra_B=278072
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1113280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 370752 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 370752 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 370752 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 370752 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 370720 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 370720 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=1418872
+mem_heap_B=1135296
+mem_heap_extra_B=283576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1446392
+mem_heap_B=1157312
+mem_heap_extra_B=289080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1473912
+mem_heap_B=1179328
+mem_heap_extra_B=294584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1501432
+mem_heap_B=1201344
+mem_heap_extra_B=300088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1528952
+mem_heap_B=1223360
+mem_heap_extra_B=305592
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1223360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 407456 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 407456 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 407424 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 407424 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 407424 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 407424 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=1556472
+mem_heap_B=1245376
+mem_heap_extra_B=311096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1583992
+mem_heap_B=1267392
+mem_heap_extra_B=316600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1611512
+mem_heap_B=1289408
+mem_heap_extra_B=322104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1639032
+mem_heap_B=1311424
+mem_heap_extra_B=327608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1666552
+mem_heap_B=1333440
+mem_heap_extra_B=333112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1694072
+mem_heap_B=1355456
+mem_heap_extra_B=338616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1721592
+mem_heap_B=1377472
+mem_heap_extra_B=344120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1749112
+mem_heap_B=1399488
+mem_heap_extra_B=349624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1776632
+mem_heap_B=1421504
+mem_heap_extra_B=355128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1804152
+mem_heap_B=1443520
+mem_heap_extra_B=360632
+mem_stacks_B=0
+heap_tree=detailed
+n4: 1443520 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 480832 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 480832 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 480832 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 480832 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 480800 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 480800 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=1831672
+mem_heap_B=1465536
+mem_heap_extra_B=366136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1859192
+mem_heap_B=1487552
+mem_heap_extra_B=371640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1886712
+mem_heap_B=1509568
+mem_heap_extra_B=377144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1914232
+mem_heap_B=1531584
+mem_heap_extra_B=382648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1941752
+mem_heap_B=1553600
+mem_heap_extra_B=388152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1943272
+mem_heap_B=1554816
+mem_heap_extra_B=388456
+mem_stacks_B=0
+heap_tree=peak
+n4: 1554816 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 517920 0x400B67: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 517920 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 517920 0x400C06: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 517920 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 517920 0x400C88: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 517920 0x4006AE: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n0: 1056 in 2 places, all below massif's threshold (1.00%)

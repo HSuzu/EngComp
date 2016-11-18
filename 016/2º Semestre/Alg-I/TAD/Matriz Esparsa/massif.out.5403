@@ -1,0 +1,739 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=104888
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=105037
+mem_heap_B=64
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=105159
+mem_heap_B=96
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=105281
+mem_heap_B=128
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=105509
+mem_heap_B=160
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=105631
+mem_heap_B=192
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=105763
+mem_heap_B=224
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=106050
+mem_heap_B=256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=106192
+mem_heap_B=288
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n3: 288 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 192 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n3: 96 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n3: 96 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 64 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 64 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+#-----------
+snapshot=10
+#-----------
+time=106430
+mem_heap_B=320
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=106552
+mem_heap_B=352
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=106704
+mem_heap_B=384
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=106952
+mem_heap_B=416
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=107074
+mem_heap_B=448
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=107236
+mem_heap_B=480
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=107484
+mem_heap_B=512
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=107606
+mem_heap_B=544
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=107933
+mem_heap_B=576
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=108055
+mem_heap_B=608
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=detailed
+n3: 608 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 384 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n7: 224 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n5: 160 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 192 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n6: 192 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+#-----------
+snapshot=20
+#-----------
+time=108227
+mem_heap_B=640
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=108505
+mem_heap_B=672
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=108627
+mem_heap_B=704
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=108809
+mem_heap_B=736
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=109136
+mem_heap_B=768
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=109328
+mem_heap_B=800
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=109616
+mem_heap_B=832
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=109738
+mem_heap_B=864
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=109940
+mem_heap_B=896
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=110228
+mem_heap_B=928
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=detailed
+n3: 928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 608 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n10: 320 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n9: 288 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 288 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n9: 288 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+#-----------
+snapshot=30
+#-----------
+time=110350
+mem_heap_B=960
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=110777
+mem_heap_B=992
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=110899
+mem_heap_B=1024
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=112159
+mem_heap_B=1024
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=peak
+n3: 1024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 672 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n12: 384 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006FF: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n9: 288 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 320 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n10: 320 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006FF: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+#-----------
+snapshot=34
+#-----------
+time=112159
+mem_heap_B=992
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=112197
+mem_heap_B=960
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=112243
+mem_heap_B=928
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=112281
+mem_heap_B=896
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=112319
+mem_heap_B=864
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=112365
+mem_heap_B=832
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=112403
+mem_heap_B=800
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=112449
+mem_heap_B=768
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=112487
+mem_heap_B=736
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=112533
+mem_heap_B=704
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=detailed
+n3: 704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 480 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n9: 288 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n7: 192 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006FF: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+ n1: 192 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n7: 192 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006FF: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+#-----------
+snapshot=44
+#-----------
+time=112571
+mem_heap_B=672
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=112617
+mem_heap_B=640
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=112655
+mem_heap_B=608
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=112693
+mem_heap_B=576
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=112739
+mem_heap_B=544
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=112777
+mem_heap_B=512
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=112823
+mem_heap_B=480
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=112861
+mem_heap_B=448
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=112907
+mem_heap_B=416
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=112945
+mem_heap_B=384
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 384 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 320 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n9: 288 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 32 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 11 places, all below massif's threshold (1.00%)
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 32 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n2: 32 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 in 9 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=112991
+mem_heap_B=352
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=113029
+mem_heap_B=320
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=113076
+mem_heap_B=288
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=113114
+mem_heap_B=256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=113152
+mem_heap_B=224
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=113190
+mem_heap_B=192
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=113228
+mem_heap_B=160
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=113266
+mem_heap_B=128
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=113304
+mem_heap_B=96
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=113342
+mem_heap_B=64
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n3: 64 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 32 0x40073C: initMatrix (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n0: 32 0x4005F7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n2: 32 0x40098D: linkNodeAfterLine (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n9: 32 0x400B77: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 32 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n12: 0 0x400AFB: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400639: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006BD: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006FF: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+ n1: 0 0x400908: linkNodeAfterColumn (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+  n10: 0 0x400A6F: addElemAt (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40060D: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400623: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40064F: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400665: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x40067B: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x400691: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006A7: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006D3: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006E9: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+   n0: 0 0x4006FF: main (in /mnt/Files/Cloud/Github/EngComp/TAD/Matriz Esparsa/main)
+#-----------
+snapshot=64
+#-----------
+time=113380
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=113418
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
