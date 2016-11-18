@@ -7,6 +7,7 @@ void createList(List *l, int *err) {
   head->next = head;
 
   l->head   = head;
+  l->tail   = head;
   l->length = 0;
 }
 
@@ -23,7 +24,7 @@ int insertElemAt(List *l, elem e, int pos, int *err) {
   }
 
   newNode->info = e;
-
+/*
   if( !(l->first) ) { // não há elementos na lista
     l->first      = newNode;
     l->last       = newNode;
@@ -53,9 +54,22 @@ int insertElemAt(List *l, elem e, int pos, int *err) {
     return 0;
   }
 // insere no meio
+*/
+
+// insere no final
+  if(pos < 0) {
+    newNode->next = l->head;
+    l->tail->next = newNode;
+
+    (l->length)++;
+    *err = 0;
+    return 0;
+  }
+
+
   Node *prev, *current;
-  prev = l->last;
-  current = l->first;
+  prev = l->tail;
+  current = l->head;
 
   if(pos > l->length) pos %= l->length;
 

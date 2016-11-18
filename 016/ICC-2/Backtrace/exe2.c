@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-//#define DEBUG
+#define DEBUG
 
 void printVector(int *vector, int len, FILE *fd) {
   int i;

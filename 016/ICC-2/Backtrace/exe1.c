@@ -135,6 +135,8 @@ int main(int argc, char *argv[]) {
     return -1;
   }
 
+  clearMatrix(aux, line, column);
+
 #ifdef DEBUG
   fprintf(stdout, "lines: %d\ncolumn: %d\n", line, column);
 
@@ -147,7 +149,7 @@ int main(int argc, char *argv[]) {
     fprintf(stdout, "Sucesso!:\n");
     printMatrix(aux, line, column, stdout);
   } else {
-    fprintf(stdout, "Falha!:\n");
+    fprintf(stdout, "Falha!\n");
   }
 
   destroyMatrix(matrix, line);
